@@ -41,7 +41,7 @@ class NewVisitorTest(unittest.TestCase):
         self.browser.get('http://127.0.0.1:8000/')
         # She notices the page title and header mention to-do lists
         # assert 'To-Do' in browser.title
-        self.assertIn('To-do', self.browser.title)
+        self.assertIn('To-Do lists', self.browser.title)
         self.fail('Finish the test!')
         # She is invited to enter a to-do item straight away
         # She types "Buy peacock feathers" into a text box (Edith's hobby

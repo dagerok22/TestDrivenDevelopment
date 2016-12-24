@@ -3,3 +3,13 @@
 1482551299958	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox
 1482551299966	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57945
 1482551301605	Marionette	INFO	Listening on port 57945
+1482553186441	geckodriver	INFO	Listening on 127.0.0.1:58109
+1482553188401	mozprofile::profile	INFO	Using profile path C:\Users\PMI51\AppData\Local\Temp\rust_mozprofile.vGUz1mpuuhVz
+1482553188404	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox
+1482553188410	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58115
+1482553189795	Marionette	INFO	Listening on port 58115
+1482553207728	geckodriver	INFO	Listening on 127.0.0.1:58136
+1482553209735	mozprofile::profile	INFO	Using profile path C:\Users\PMI51\AppData\Local\Temp\rust_mozprofile.abRDadOlJybv
+1482553209738	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox
+1482553209742	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58142
+1482553210993	Marionette	INFO	Listening on port 58142
