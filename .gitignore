@@ -1,0 +1,9 @@
+
+/db.sqlite3
+/manage.py
+/tdd_app/migrations/
+.idea/workspace.xml
+TestDrivenDevelopment/__pycache__/
+tdd_app/__pycache__/
+tdd_app/migrations/__pycache__/
+templates/

@@ -1,0 +1,5 @@
+1482551297975	geckodriver	INFO	Listening on 127.0.0.1:57939
+1482551299955	mozprofile::profile	INFO	Using profile path C:\Users\PMI51\AppData\Local\Temp\rust_mozprofile.VkjBpqXzphpB
+1482551299958	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox
+1482551299966	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57945
+1482551301605	Marionette	INFO	Listening on port 57945
