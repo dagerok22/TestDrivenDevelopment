@@ -7,3 +7,4 @@ TestDrivenDevelopment/__pycache__/
 tdd_app/__pycache__/
 tdd_app/migrations/__pycache__/
 tdd_app/templates/
+/geckodriver.log
