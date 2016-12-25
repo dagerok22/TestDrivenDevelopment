@@ -6,4 +6,4 @@
 TestDrivenDevelopment/__pycache__/
 tdd_app/__pycache__/
 tdd_app/migrations/__pycache__/
-templates/
+tdd_app/templates/
