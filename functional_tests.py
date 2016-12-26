@@ -1,4 +1,6 @@
 import unittest
+
+import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
@@ -40,7 +42,7 @@ class NewVisitorTest(unittest.TestCase):
         # to check out its homepage
         # browser.get('http://localhost:8000')
         self.browser.get('http://127.0.0.1:8000/')
-        
+
         # She notices the page title and header mention to-do lists
         # assert 'To-Do' in browser.title
         self.assertIn('To-Do', self.browser.title)
@@ -61,7 +63,9 @@ class NewVisitorTest(unittest.TestCase):
         # "1: Buy peacock feathers" as an item in a to-do list
         table = self.browser.find_element_by_id('id_list_table')
         rows = table.find_elements_by_tag_name('tr')
-        self.assertTrue(any('Buy peacock feathers' == row.text for row in rows), msg='New to-do item does not appear in the table')
+        # self.assertTrue(any('Buy peacock feathers' == row.text for row in rows),
+        #                 msg='New to-do item does not appear in the table -- it\'s text was:\n%s' % (table.text, ))
+        self.assertIn('1: Buy peacock feathers', [row.text for row in rows])
 
         # There is still a text box inviting her to add another item. She
         # enters "Use peacock feathers to make a fly" (Edith is very methodical)
