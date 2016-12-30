@@ -15,8 +15,11 @@ Including another URLconf
 from django.conf.urls import include, url
 from django.contrib import admin
 import tdd_app.urls
+from tdd_app.views import view_list
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', include(tdd_app.urls)),
+    url(r'^lists/the-only-list-in-the-world/$', view_list,
+        name='view_list'),
 ]

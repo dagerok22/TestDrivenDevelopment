@@ -15,7 +15,7 @@ Including another URLconf
 from django.conf.urls import include, url
 from django.contrib import admin
 
-from tdd_app.views import home_page
+from tdd_app.views import home_page, view_list
 
 urlpatterns = [
     url(r'^$', home_page, name='home_page'),
