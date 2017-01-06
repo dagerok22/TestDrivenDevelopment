@@ -104,7 +104,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATIC_DIRS = (
-    os.path.join(BASE_DIR, 'tdd_app/assets')
+    os.path.join(BASE_DIR, 'tdd_app/static')
 )
 
 
